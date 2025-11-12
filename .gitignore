@@ -1,0 +1,42 @@
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (keep only sample or README)
+data/
+!data/README.md
+!data/sample.csv
+
+# Model and results outputs
+models/
+results/
+figures/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VSCode / IDE files
+.vscode/
+.idea/
+
+# Ignore hidden system files
+*.swp
+*.swo
